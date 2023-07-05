@@ -1,6 +1,5 @@
 # springboot
-### Projeto em java utilizando Spring Book para projeto com Spring MVC, Spring Data JPA e Spring Validation 
-### para a criação de uma API RESTful com Pageable, métodos getAll, getOne, post, put, delete e Global Custom Date.
+### Projeto em java utilizando Spring Book com as dependencias do Spring MVC, Spring Data JPA, Spring Validation e Spring HATEOAS, para a criação de uma API RESTful seguindo o modelo de maturidade de Richardson.
 
 
 #### Ferramentas Utilizadas para preparar o ambiente:
