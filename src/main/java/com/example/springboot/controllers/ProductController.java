@@ -28,5 +28,9 @@ public class ProductController {
         return ResponseEntity.status(HttpStatus.CREATED).body(productRepository.save(productModel));
     }
 
+    @GetMapping("/products")
+    public ResponseEntity<List<ProductModel>> getAllProducts(){
+        return ResponseEntity.status(HttpStatus.OK).body(productRepository.findAll());
+    }
 
 }
